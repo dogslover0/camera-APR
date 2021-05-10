@@ -1,0 +1,24 @@
+[28-04-21 03:31] [INFO] - Start with ms_apr with train
+[28-04-21 03:31] [INFO] - Using dataset from E:\zy_\SLAM\MS-Transformer\datasets\7Scenes
+[28-04-21 03:31] [INFO] - Using label file from GTPose/7Scenes_train_val/all_7scenes_train.csv
+[28-04-21 03:31] [INFO] - Running with configuration : 
+	 batch_size: 8
+	 equalize_scenes: False
+	 num_scenes: 7
+	 learnable: True
+	 backbone_out_dim: 1280
+	 backbone_next_out: 1024
+	 s_x: 0.0
+	 s_q: -3.0
+	 lr: 0.0001
+	 norm: 2
+	 weight_decay: 0.0001
+	 eps: 1e-10
+	 lr_scheduler_gamma: 0.1
+	 lr_scheduler_step_size: 10
+	 n_epochs: 30
+	 dropout: 0.1
+	 n_freq_print: 5
+	 n_freq_checkpoint: 10
+	 n_workers: 4
+	 device_id: cuda:0

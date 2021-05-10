@@ -1,0 +1,3 @@
+[28-04-21 01:13] [INFO] - Start with base_apr with train
+[28-04-21 01:13] [INFO] - Using dataset from dataset/7Scenes
+[28-04-21 01:13] [INFO] - Using label file from GTPose/7Scenes_train_val/all_7scenes_train.csv
